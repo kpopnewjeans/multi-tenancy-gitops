@@ -28,13 +28,13 @@ spec:
       - name: spec.acceptLicense
         value: "true"
       - name: spec.basicDeploymentConfiguration.adminUser
-        value: adminUser
+        value: cp4sadmin
       - name: spec.basicDeploymentConfiguration.storageClass
-        value: managed-nfs-storage
+        value: thin
       - name: spec.extendedDeploymentConfiguration.airgapInstall
         value: "false"
       - name: spec.extendedDeploymentConfiguration.backupStorageClass
-        value: managed-nfs-storage
+        value: thin
       - name: spec.extendedDeploymentConfiguration.backupStorageSize
         value: ''
       - name: spec.extendedDeploymentConfiguration.imagePullPolicy
